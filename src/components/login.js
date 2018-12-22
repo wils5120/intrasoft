@@ -8,13 +8,6 @@ const{width: WIDTH } = Dimensions.get('window')
 
 export default class ComponentLogin extends Component {
 
-    aceptar(){
-        this.props.navigator.push({
-            title: 'user',
-            nombre: 'ver',
-            passProps:{}
-        });
-    }
 
   render() {
     return (

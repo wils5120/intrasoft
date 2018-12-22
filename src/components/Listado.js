@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, FlatList} from 'react-native';
+import {StyleSheet, Text, View, FlatList, } from 'react-native';
 import { List,ListItem } from 'react-native-elements';
 
-type Props = {};
-export default class ComponentLook extends Component<Props>{
+export default class ComponentLook extends Component{
         
     constructor(Props){
         super(Props);
